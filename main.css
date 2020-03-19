@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  background-color: none;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #444;
+  line-height: 1.5;
+  margin: 0;
+  height: 100%;  
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.input,
+.submit {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+.input {
+    border: 1px solid lightgray;
+}
+
+.submit {
+    background-color: lightgreen;
+    /**
+     * If the input field has a border,
+     * you need it here too to achieve equal heights.
+     */
+    border: 1px solid transparent;
+}
+
+/* responsiveness */
+@media(max-width:535px){
+  h1{
+      font-size:2.5em
+  }
+}
+
+@media (min-width: 576px) {
+  body {
+      max-width: 540px;
+  }
+  input{
+      width:40vh;
+      font-size:1em;
+  }
+  button{
+      height:39px; 
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+      max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+      max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+      max-width: 1140px;
+  }
+}
+
+
+
+
+
+
